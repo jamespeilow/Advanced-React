@@ -24,7 +24,7 @@ export const Product = list({
       },
     }),
     price: integer(),
-    image: relationship({
+    photo: relationship({
       ref: 'ProductImage.product',
       ui: {
         displayMode: 'cards',
